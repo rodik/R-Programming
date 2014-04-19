@@ -20,6 +20,6 @@ openSingleFile <- function(directory, pollutant, id) {
     temp[pollutant]
 }
 
-substrRight <- function(x, n){
-    substr(x, nchar(x)-n+1, nchar(x))
+substrRight <- function(string, n){
+    substr(string, nchar(string)-n+1, nchar(string))
 }
